@@ -173,14 +173,14 @@ footer {
   border-bottom: 1px solid #EBEBEB;
 }
 
+.post:last-child {
+  border-bottom: none;
+}
+
 .post-title {
   font-size: .8rem;
   color: #143774;
   margin-top: .5em;
-}
-
-.last-post {
-  border-bottom: none;
 }
 
 /* Navigation */
