@@ -1,5 +1,151 @@
 
-/* Typography */
 body {
+    margin: 0;
     font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1rem; 
+    color: #404040;
+    text-align: center;
 }
+
+/* Typography */
+h1 {
+    font-weight: 300;
+    font-size: 2.25rem;
+    color: white;
+    padding: 0 2.7em;
+}
+
+h2 {
+    font-size: 1.3125rem;
+}
+
+small {
+    font-size: 0.625rem; 
+}
+
+.bold-title {
+    font-weight: 900;
+}
+
+.register-today {
+    color: #F18119;
+    font-weight: 900;
+}
+
+/* Layout */
+h2 {
+    margin-bottom: 0;
+}
+
+.register-today {
+    margin: 0 auto;
+    text-transform: uppercase;
+}
+
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url('../images/dark-ribs.jpg');
+    background-repeat: no-repeat;
+    justify-content: space-between;
+    min-height: 378px;
+    background-size: cover;
+}
+
+.subtitle {
+    font-weight: 900;
+    color: #F18119;
+    text-transform: uppercase;
+}
+
+.tagline {
+    order: -1;
+    margin: 0 auto;
+    color: #F18119;
+    text-transform: uppercase;
+    border-top: 5px solid #F18119;
+    padding-top: .6em;
+}
+
+
+/* Main Content */
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.description {
+    padding: 1em;
+    color: #5a5a5a;
+    font-size: 1.25rem;
+    margin: 0;
+}
+
+.disclaimer {
+    width: 38%;
+    color: #989898;
+}
+
+.form-registration {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.input-text {
+    width: 50%;
+    border: 1px solid #818181;
+    border-radius: 7px;
+    text-align: center;
+    padding: 1em 2em;
+    margin-bottom: 1.5em;
+    color: #404040;
+}
+
+.btn-register {
+    text-transform: uppercase;
+    color:white;
+    padding: 1em 2em;
+    width: 50%;
+    background: linear-gradient(270deg, #FF713B 0%, #FFA51D 100%) 0% 0% no-repeat padding-box;
+    margin-bottom: 1em;
+    font-weight: 900;
+    letter-spacing: 1px;
+    font-size: 0.625rem;
+}
+
+.btn-register:hover, .btn-register:focus {
+    opacity: 0.5;
+}
+
+@media (min-width: 675px) {
+    h1 {
+        font-size: 3.5rem;
+    }
+
+    h2 {
+        font-size: 1.75rem;
+    }
+
+    body {
+        display: flex;
+    }
+
+    .intro {
+        flex: 0.6;
+        height: 100vh;
+    }
+
+    .main-content {
+        flex: 0.4;
+    }
+}
+
+
+
+
