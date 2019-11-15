@@ -113,29 +113,36 @@ small {
 }
 
 .input-text {
-    width: 50%;
     border: 1px solid #818181;
-    border-radius: 7px;
-    text-align: center;
     padding: 1em 2em;
     margin-bottom: 1.5em;
     color: #404040;
+    transform: scale(1);
+    transition: transform 250ms;   
+}
+
+.input-text:focus {
+    transform: scale(1.1);
+}
+
+.btn {
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+    font-size: 0.625rem;
+    font-weight: 900;
+    padding: 1em 2em;
+    border: 0;
 }
 
 .btn-register {
-    text-transform: uppercase;
     color:white;
-    padding: 1em 2em;
-    width: 50%;
-    background: linear-gradient(270deg, #FF713B 0%, #FFA51D 100%) 0% 0% no-repeat padding-box;
-    margin-bottom: 1em;
-    font-weight: 900;
-    letter-spacing: 1.2px;
-    font-size: 0.625rem;
+    background: linear-gradient(90deg,#FFA51D, #FF713B);
+    transform: scale(1);
+    transition: transform 250ms;   
 }
 
 .btn-register:hover, .btn-register:focus {
-    opacity: 0.5;
+    transform: scale(1.1);    
 }
 
 @media (min-width: 500px) {
