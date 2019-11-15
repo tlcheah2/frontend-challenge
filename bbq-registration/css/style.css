@@ -64,10 +64,12 @@ small {
 .tagline {
     order: -1;
     margin: 0 auto;
-    color: #F18119;
+    color:#F18119;
     text-transform: uppercase;
     border-top: 5px solid #F18119;
-    padding-top: .6em;
+    border-image: linear-gradient(to right, #FFA51D, #FF713B) 1;
+    padding-top: 2px;
+
 }
 
 
