@@ -102,6 +102,9 @@ small {
     flex-direction: column;
     align-items: center;
     width: 100%;
+    text-align: inherit;
+    font-family: inherit;
+    border-radius: 7px;
 }
 
 .input-text {
