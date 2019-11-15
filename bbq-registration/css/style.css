@@ -34,8 +34,9 @@ small {
 
 /* Layout */
 .intro {
-    background-image: url('../images/dark-ribs.jpg');
+    background-image: url('../images/ribs.jpg');
     background-color: #404040;
+    background-blend-mode: multiply;
     background-position: center;
     background-size: cover;
     padding: 0 .5em 1em;
